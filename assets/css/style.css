@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.item {
+  @apply pt-4 pb-4 pl-12 pr-12 flex flex-col justify-center items-center hover:scale-[1.5] ease-in-out duration-500;
+}

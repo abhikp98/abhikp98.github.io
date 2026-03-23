@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Abhinand</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="sticky top-0 z-20" id="header">
+      <div
+        class="bg-indigo-400 text-white px-5 py-5 flex sticky top-0 lg:rounded-b-4xl lg:mx-5 shadow-lg"
+      >
+        <div class="w-1/12">
+          <a href=""><h3 class="text-3xl font-bold">Abhinand</h3></a>
+        </div>
+        <nav class="w-11/12" id="headernav">
+          <ul class="hidden lg:flex space-x-10 mr-10 justify-end items-center">
+            <li
+              class="hover:scale-150 duration-300 focus:underline focus:decoration-2 focus:decoration-white"
+            >
+              <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li class="hover:scale-150 duration-300">
+              <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
+            </li>
+            <li class="hover:scale-150 duration-300">
+              <a href="#projects"
+                ><i class="fa-solid fa-list-check"></i>Projects</a
+              >
+            </li>
+            <li class="hover:scale-150 duration-300">
+              <a href="#skills"><i class="fa-solid fa-bullseye"></i>Skills</a>
+            </li>
+            <li class="hover:scale-150 duration-300">
+              <a href="#contact"
+                ><i class="fa-solid fa-paper-plane"></i>Contact Me</a
+              >
+            </li>
+            <li>
+              <a href="/assets/resume.pdf" target="_blank">
+                <button
+                  class="bg-amber-50 text-black p-2 rounded-3xl px-4 hover:bg-indigo-500 hover:text-white visited:bg-indigo-800"
+                >
+                  Download CV
+                </button>
+              </a>
+            </li>
+          </ul>
+
+          <div class="flex justify-end lg:hidden focus:outline-2">
+            <img
+              src="/assets/img/hamburger.svg"
+              class="w-10 select-none"
+              alt="hamburger"
+              id="hamburger"
+            />
+          </div>
+        </nav>
+      </div>
+      <nav
+        class="bg-indigo-400 text-end pe-5 text-white lg:hidden hidden pt-3 pb-3 transition-all duration-700 ease-in-out"
+        id="nav"
+      >
+        <ul class="space-y-8">
+          <li>
+            <a href="#home">Home <i class="fa-solid fa-house"></i></a>
+          </li>
+          <li>
+            <a href="#about">About <i class="fa-solid fa-address-card"></i></a>
+          </li>
+          <li>
+            <a href="#projects"
+              >Projects <i class="fa-solid fa-list-check"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#skills">Skills <i class="fa-solid fa-bullseye"></i></a>
+          </li>
+          <li>
+            <a href="/assets/resume.pdf" target="_blank">
+              <button
+                class="bg-amber-50 text-black p-2 rounded-3xl px-4 hover:bg-indigo-500 hover:text-white visited:bg-indigo-800"
+              >
+                Download CV
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      class="h-screen bg-[url('/assets/img/banner-bg.jpg')] -mt-20 pt-20 sm:flex"
+      id="home"
+    >
+      <div class="h-16 sm:w-2/3">
+        <h1 class="text-white font-bold sm:text-4xl text-3xl my-20 mx-9">
+          I'm a <span id="typewriter"></span>
+        </h1>
+      </div>
+      <div
+        class="absolute bottom-36 sm:end-20 text-white md:pe-5 mx-2 text-center sm:text-right text-xl sm:text-2xl"
+      >
+        a Backend Developer Excited to Expolore Technologies<br />
+        <div class="flex grid-cols-3 justify-center gap-4 sm:gap-10 mt-5">
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-blue-700"
+          >
+            <a href="https://www.linkedin.com/in/abhikp98/" target="_blank"
+              ><i class="fa-brands fa-linkedin hover:scale-110 duration-75"></i
+            ></a>
+          </div>
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-gray-600"
+          >
+            <a href="https://github.com/abhikp98" target="_blank"
+              ><i class="fa-brands fa-github hover:scale-110 duration-75"></i
+            ></a>
+          </div>
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-gray-600"
+          >
+            <a
+              href="https://www.hackerrank.com/profile/kpabhinand16"
+              target="_blank"
+              ><i
+                class="fa-brands fa-hackerrank hover:scale-110 duration-75"
+              ></i
+            ></a>
+          </div>
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-black"
+          >
+            <a href="https://x.com/abhinand_kp" target="_blank"
+              ><i class="fa-brands fa-x-twitter hover:scale-110 duration-75"></i
+            ></a>
+          </div>
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-pink-500"
+          >
+            <a href="https://www.instagram.com/abhinand_k_p/" target="_blank"
+              ><i class="fa-brands fa-instagram hover:scale-110 duration-75"></i
+            ></a>
+          </div>
+          <div
+            class="w-12 h-12 flex items-center justify-center bg-blue-500 text-white rounded-full hover:bg-green-700"
+          >
+            <a href="https://wa.me/918086899802" target="_blank"
+              ><i class="fa-brands fa-whatsapp hover:scale-110 duration-75"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center justify-center w-12 h-12"
+      >
+        <a href="#about"
+          ><i class="fa-solid fa-arrow-down text-white text-4xl fa-bounce"></i
+        ></a>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="scroll-m-20 bg-indigo-400 pb-20" id="about">
+      <h2 class="text-center text-3xl text-white pt-5">
+        <i class="fa-solid fa-address-card"></i> Know More
+      </h2>
+
+      <div
+        class="container rounded-xl bg-indigo-400 text-white shadow-2xl shadow-gray-700 mx-auto flex flex-col sm:flex-row items-center mt-5 p-5"
+      >
+        <img
+          src="assets/img/profile.webp"
+          alt="Abhinand"
+          class="w-40 h-40 rounded-full select-none pointer-events-none mx-auto sm:mx-0 sm:mr-5"
+        />
+        <p class="my-3 text-center">
+          A passionate Python Django Developer with 1 year of experience
+          building scalable web applications. I specialize in backend
+          development, crafting robust APIs, and optimizing database
+          performance. Apart from coding, I have a strong interest in trading in
+          the Indian stock market and developing automated strategies. With an
+          engineering background and hands-on experience in geotechnical
+          engineering, I bring a unique problem-solving mindset to software
+          development. I'm always eager to learn and explore new technologies.
+          Let's connect and build something amazing! 🚀
+        </p>
+      </div>
+      <h2
+        class="text-2xl text-white ms-10 my-10 underline underline-offset-5 decoration-white decoration-2"
+      >
+        Interests
+      </h2>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mx-3 font-bold text-white"
+      >
+        <div
+          class="bg-indigo-500 shadow-2xl p-5 rounded-xl flex items-center justify-between"
+        >
+          Web Development
+          <div>
+            <img
+              src="/assets/img/web-development.webp"
+              class="w-20 h-20 select-none pointer-events-none"
+            />
+          </div>
+        </div>
+        <div
+          class="bg-indigo-500 shadow-2xl p-5 rounded-xl flex items-center justify-between"
+        >
+          Web Designing<span
+            ><img
+              src="/assets/img/web-desiging.webp"
+              class="w-20 h-20 select-none pointer-events-none"
+          /></span>
+        </div>
+        <div
+          class="bg-indigo-500 shadow-2xl p-5 rounded-xl flex items-center justify-between"
+        >
+          Software Development<span
+            ><img
+              src="/assets/img/software-development.webp"
+              class="w-20 h-20 select-none pointer-events-none"
+          /></span>
+        </div>
+        <div
+          class="bg-indigo-500 shadow-2xl p-5 rounded-xl flex items-center justify-between"
+        >
+          App Development<span
+            ><img
+              src="/assets/img/app-development.webp"
+              class="w-20 h-20 select-none pointer-events-none"
+          /></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="scroll-m-20 pb-10 bg-indigo-500 text-white" id="projects">
+      <h2 class="text-center text-2xl pt-5">
+        <i class="fa-solid fa-list-check"></i>My Projects
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 m-5">
+        <div
+          class="bg-white text-indigo-700 p-5 rounded-xl shadow-2xl hover:scale-105 duration-300 hover:shadow-2xl hover:cursor-pointer shadow-black project-card"
+        >
+          <h1 class="text-2xl">Innovate (Service Based App)</h1>
+          <h3 class="text-lg text-indigo-500">
+            a new invenstion to communicate shops
+          </h3>
+          <hr class="my-3 w-1/2 text-blue-600" />
+          <p class="text-gray-800">
+            A Python fullstack project with react for Users to enquire for their
+            products and communicate , where users can register and login which
+            is done with authentication and Users can request for a product and
+            shops can accept or reject the request.
+          </p>
+          <hr />
+          <ul class="list-disc ms-5">
+            <li>Backend: Django REST</li>
+            <li>Frontend: React, Tailwind</li>
+            <li>database: PostgreSQL</li>
+            <li>Authentication: JWT Authentication</li>
+          </ul>
+        </div>
+
+        <div
+          class="bg-white text-indigo-700 p-5 rounded-xl shadow-2xl hover:scale-105 duration-300 hover:shadow-2xl shadow-black hover:cursor-pointer project-card"
+        >
+          <h1 class="text-2xl">Matri</h1>
+          <h3 class="text-lg text-indigo-500">a genaral matrimony website</h3>
+          <hr class="my-3 w-1/2 text-blue-600" />
+          <p class="text-gray-800">
+            A Django project for Users to search for their partners and
+            communicate , where users can register and login which is done with
+            authentication and users can view others profile and follow them
+          </p>
+          <hr />
+          <ul class="list-disc ms-5">
+            <li>Backend: Django Funtion Based</li>
+            <li>Frontend: Html/ Css/ Js/ Bootstrap</li>
+            <li>database: Mysql</li>
+            <li>Authentication: Django Authentication</li>
+          </ul>
+        </div>
+        <div
+          class="bg-white text-indigo-700 p-5 rounded-xl shadow-2xl hover:scale-105 duration-300 hover:shadow-2xl shadow-black hover:cursor-pointer project-card"
+        >
+          <h1 class="text-2xl">TweetApp</h1>
+          <h3 class="text-lg text-indigo-500">a Twitter cloned website</h3>
+          <hr class="my-3 w-1/2 text-blue-600" />
+          <p class="text-gray-800">
+            A Django project for Users tweet their ideas in web. It used class
+            based technoilogy. its a clone idea from twitter. where users can
+            like others tweets. Main intention was to work with class based
+            projects.
+          </p>
+          <hr />
+          <ul class="list-disc ms-5">
+            <li>Backend: Django Class Based</li>
+            <li>Frontend: Html/ Css/ Js/ Bootstrap</li>
+            <li>Database: Mysql</li>
+            <li>Authentication: Django Authentication</li>
+          </ul>
+        </div>
+        <!-- <div
+          class="bg-white text-indigo-700 p-5 rounded-xl shadow-2xl hover:scale-105 duration-300 hover:shadow-2xl shadow-black hover:cursor-pointer project-card"
+        >
+          <h1 class="text-2xl">TimeWheels</h1>
+          <h3 class="text-lg text-indigo-500">Bus Route Management website</h3>
+          <hr class="my-3 w-1/2 text-blue-600" />
+          <p class="text-gray-800">
+            TimeWheels is a Web and Android based application, where users can
+            find the list of buses in the specific route, and check bus
+            timings,and routes, moreover it shows the time delays of a bus +
+            Added Long Route bus search and Ticket booking
+          </p>
+          <hr />
+          <ul class="list-disc ms-5">
+            <li>Backend: Django Funtion Based</li>
+            <li>Frontend: Html/ Css/ Js/ Bootstrap</li>
+            <li>Database: Mysql</li>
+          </ul>
+        </div> -->
+        <div
+          class="bg-white text-indigo-700 p-5 rounded-xl shadow-2xl hover:scale-105 duration-300 hover:shadow-2xl shadow-black hover:cursor-pointer project-card"
+        >
+          <h1 class="text-2xl">MedApp</h1>
+          <h3 class="text-lg text-indigo-500">Online Medicine Store</h3>
+          <hr class="my-3 w-1/2 text-blue-600" />
+          <p class="text-gray-800" title="Click to View on Github">
+            MedApp is a web and android based application which gives access to
+            Medical shops and users to sell and buy products. it provides a
+            customised user experiance in android to set delivery address and
+            track order status.
+          </p>
+          <hr />
+          <ul class="list-disc ms-5">
+            <li>Backend: Django Funtion Based</li>
+            <li>Frontend: Html/ Css/ Js/ Bootstrap</li>
+            <li>Database: Mysql</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <h2 class="text-center text-2xl pt-5 scroll-m-20" id="skills">
+      <i class="fa-solid fa-bullseye"></i>Skills
+    </h2>
+    <div class="scroll-wrapper overflow-hidden">
+      <div
+        class="scroll-track flex flex-nowrap animate-[scrollLeft_30s_linear_infinite] w-max tranlaste-z-0"
+        id="scrollTrack"
+      >
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/python"
+            class="w-8"
+            alt="mysql"
+          />Python
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/django"
+            class="w-8"
+            alt=""
+          />Django
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/mysql"
+            class="w-8"
+            alt=""
+          />mySQL
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/postgresql"
+            class="w-8"
+            alt=""
+          />PostgreSQL
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/fastapi"
+            class="w-8"
+            alt=""
+          />FastAPI
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/bootstrap"
+            class="w-8"
+            alt=""
+          />Bootstrap
+        </div>
+        <div class="item">
+          <img src="https://cdn.simpleicons.org/css" class="w-8" alt="" />CSS 3
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/javascript"
+            class="w-8"
+            alt=""
+          />Javascript
+        </div>
+        <div class="item">
+          <img src="https://cdn.simpleicons.org/git" class="w-8" alt="" />Git
+        </div>
+        <div class="item">
+          <img src="https://cdn.simpleicons.org/github" class="w-8" alt="" />Git
+          Hub
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/pythonanywhere"
+            class="w-8"
+            alt=""
+          />Python Anywhere
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.simpleicons.org/render"
+            class="w-8"
+            alt=""
+          />render
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Page -->
+    <section class="bg-white" id="contact">
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2 class="text-center text-2xl pt-5">
+          <i class="fa-solid fa-paper-plane"></i>Contact Me💕
+        </h2>
+        <p
+          class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
+        >
+          Want to send or ask something else? Need to connect with me? Let me
+          know.
+        </p>
+        <form action="#" class="space-y-8" id="contact-form">
+          <div>
+            <label
+              for="name"
+              class="block mb-2 text-sm font-medium text-gray-900"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="Nandhan"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="block mb-2 text-sm font-medium text-gray-900"
+              >Your email</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="Nandhan@gmail.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="subject"
+              class="block mb-2 text-sm font-medium text-gray-900"
+              >Subject</label
+            >
+            <input
+              type="text"
+              id="subject"
+              class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Let us know how we can help you"
+              required
+            />
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="message"
+              class="block mb-2 text-sm font-medium text-gray-900"
+              >Your message</label
+            >
+            <textarea
+              id="message"
+              rows="6"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Leave a comment..."
+            ></textarea>
+          </div>
+          <button
+            id="submit"
+            type="submit"
+            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-indigo-400 sm:w-fit hover:bg-indigo-500 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="bg-indigo-400 h-24 text-white text-center pt-5">
+        <p>
+          &copy;<span id="year"></span> Abhinand with
+          <i class="fa-solid fa-heart"></i>&nbsp;| All Rights Reserved
+        </p>
+        <script>
+          document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+      </div>
+    </footer>
+
+    <!-- Scroll Button  -->
+
+    <div
+      class="fixed bottom-18 end-6 p-5 bg-indigo-400 text-white shadow-lg hover:bg-blue-600 rounded-full justify-center flex items-center hidden cursor-pointer"
+      id="scrollTopBtn"
+    >
+      <i class="fa-solid fa-arrow-up w-3 h-3"></i>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="module" src="/assets/js/App.js"></script>
+  </body>
+</html>
